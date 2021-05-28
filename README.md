@@ -33,19 +33,19 @@ going in increasing numerical order is okay, it is advised you to go with
 this order mentioned below for better understanding.
 Follow the order:
 
-- Section 1.1 [Refer ESP8266-01 Pinout]
-- Section 2.1 [Set WiFi Module in program mode]
-- Section 3 [Program the WiFi Module]
-- Section2.2 [Connect the WiFi Module to the Arduino in working
+- [Section 1.2]() [Refer ESP8266-01 Pinout]
+- [Section 2.1]() [Set WiFi Module in program mode]
+- [Section 3]() [Program the WiFi Module]
+- [Section2.2]() [Connect the WiFi Module to the Arduino in working
 mode]
 
 At this point you are done with uploading code to the ESP8266-01. Now
 for the Arduino.
 
-- Section 4 [Upload code to arduino]
-- Section 1.1 [Refer Stepper IC and LCD Pinout]
-- Section 1 [Wire all the components]
-- Section 1.2 [While wiring refer these diagrams]
+- [Section 4]() [Upload code to arduino]
+- [Section 1.2]() [Refer Stepper IC and LCD Pinout]
+- [Section 1.1]() [Wire all the components]
+- [Section 1.3]() [While wiring refer these diagrams]
 
 At this point you have uploaded code to the Arduino, ESP8266-01 and
 have the wirings done.
@@ -53,7 +53,7 @@ have the wirings done.
 and follow Section 5.
 - Next, look at the How to use section.
 
-### Section 1: Wiring the Setup [Arduino Side]
+### Section 1.1: Wiring the Setup [Arduino Side]
 
 | **Arduino Pin** | **To where** | **######** | **Arduino Pin** | **To where** |
 | --- | --- | --- | --- | --- |
@@ -69,38 +69,44 @@ and follow Section 5.
 | **3** | **LCD pin 13** | **######** | **SDA** | **SDA of RTC** |
 | **4** | **LCD pin 12** | **######** | **SCL** | **SCL of RTC** |
 
-- For Pin Numbering of LCD and Stepper IC look at Section 1.1
-- For Diagrams look at Section 1.2
+- For Pin Numbering of LCD and Stepper IC look at Section 1.2
+- For Diagrams look at Section 1.3
 
 
-### Section 1.1: LCD, ESP8266-01 and Stepper Pin Numbering
+### Section 1.2: LCD, ESP8266-01 and Stepper Pin Numbering
 
 - **Stepper IC:**
-    - ![Stepper IC](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/pinouts/L293D_pins.png)
+    - ![Stepper IC Pin numbers](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/pinouts/L293D_pins.png)
 
-    - Use Section 1 to connect arduino to IC.
+    - Use Section 1.1 to connect arduino to IC.
     - Use stepper diagram in Section1.2 for connecting IC to
 stepper.
 
 - **LCD:**
     - ![LCD Pinout](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/pinouts/lcd_pins.png)
-    - For a more detailed view of lcd check section 1.2.
+    - For a more detailed view of lcd check section 1.3.
 
 - **ESP8266-01**
-    - ![]()
+    - ![ESP8266-01 Pinout](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/pinouts/esp8266_pins.png)
 
 -  Keep these in mind as future sections would be using this terminology.
 
-### Section 1.2: Diagrams
+### Section 1.3: Diagrams
 
 This sections has all connections diagrams for each arduino component.
 
-- LCD ![LCD connections](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/connections/lcd_conn.png)
-- RTC ![RTC connections](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/connections/rtc_conn.png)
-- Lights ![Light connections](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/connections/light_conn.png)
-- Temperature Sensor ![Temp. sensor connections](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/connections/temp_conn.png)
-- Stepper motor ![Stepper connections](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/connections/stepper_conn.png)
-- Water level sensor ![Water level sensor connections](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/connections/waterlevel_conn.png)
+- LCD 
+    - ![LCD connections](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/connections/lcd_conn.png)
+- RTC 
+    - ![RTC connections](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/connections/rtc_conn.png)
+- Lights 
+    - ![Light connections](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/connections/light_conn.png)
+- Temperature Sensor 
+    - ![Temp. sensor connections](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/connections/temp_conn.png)
+- Stepper motor 
+    - ![Stepper connections](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/connections/stepper_conn.png)
+- Water level sensor 
+ - ![Water level sensor connections](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/connections/waterlevel_conn.png)
 
 
 ### Section 2.1: ESP8266 - 01 [Program Mode]
@@ -173,6 +179,6 @@ Take the **smart_aquarium.ino** code and flash it to the arduino using the Ardui
 
 ### Section 5: Making the Final Connections.
 
-Assuming that you have completed all the sections prior to this, connect the ESP8266-01 to the Arduino in working mode [Section 2.2], and make sure that the connections from Section 1 are made.
+Assuming that you have completed all the sections prior to this, connect the ESP8266-01 to the Arduino in working mode [Section 2.2], and make sure that the connections from Section 1.1 are made.
 
 We have already provided the Android APK and the code. Next, once all connections are made, power on the arduino and then boot up the APP. More on how to use the setup in the guide ahead.
