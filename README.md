@@ -4,27 +4,63 @@ The goal of this project is to make aquarium monitoring and maintenance easier. 
 
 See this for the final results and usage: https://youtu.be/kJp_m0JY0r8
 
+Quick links:
+- [Required Components](https://github.com/yashkurkure/Smart-Aquarium-Project#required-components)
+- [Some Diagrams](https://github.com/yashkurkure/Smart-Aquarium-Project#some-diargrams)
+- [Building the project](https://github.com/yashkurkure/Smart-Aquarium-Project#building-the-project)
+    - [Section 1.1: ]()
+    - [Section 1.2: ]()
+    - [Section 1.3: ]()
+    - [Section 2.1: ]()
+    - [Section 2.2: ])
+    - [Section 3: ]()
+    - [Section 4: ]()
+    - [Section 5: ]()
+
+- [References]()
+- []()
+
 
 ## Required Components
--
--
--
--
--
-.
-.
-.
-.
+- Arduino UNO 3.
+- Wi-FI module ESP 8266-01.
+- Android device.
+- DS18B20 digital temperature sensor.
+- 16x2 LCD.
+- Stepper Motor.
+- RTC – DS3231.
+- Relay – 5V 2-Channel Relay.
+- Aquarium Lights.
+- Breadboard.
+- Aquarium (For implementation).
+- Wires, Resistors, etc.
+- Male to Male, Male to Female, Female to Female Breadboard Jumper wires.
+- Water Level Sensor.
+- 3.3V Voltage Regulator.
 
 ## Some diargrams
+
+#### Communication of WiFi module, Arduino and Android:
 
 ![Communication and Network Diagram](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/other/communication_diargram.png)
 
 The above image shows how the individual components communicatre with wach other. The arduino is the one controlling the I/O devices realted to the aquarium. The arduino communicates with the wifi module ESP8266-01. The wifi module is connected to a local network through which it can respond to http get requests. Almost all request that it gets are forwarded to the arduino over serial, to which the arduino reponds and then the wifi module sends the response to the client.
 
+#### App:
+
 Below is the screenshot of the app this project uses. You can find the code in the [Android_Code](https://github.com/yashkurkure/Smart-Aquarium-Project/tree/main/Arduino_Code) folder and the .apk file in [APK_file](https://github.com/yashkurkure/Smart-Aquarium-Project/tree/main/APK_file) folder.
 
 ![App ScreenShot](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/other/app.png)
+
+#### LCD working:
+
+Here is what you will see on the LCD once you assemble the project.
+
+![LCD in action](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/other/lcd_zoom.png)
+
+#### Fish feeding Mechanism:
+
+![Stepper Mechanism](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/other/stepper_mechanism.png)
 
 ## Building the project
 
@@ -33,24 +69,24 @@ going in increasing numerical order is okay, it is advised you to go with
 this order mentioned below for better understanding.
 Follow the order:
 
-- [Section 1.2]() [Refer ESP8266-01 Pinout]
-- [Section 2.1]() [Set WiFi Module in program mode]
-- [Section 3]() [Program the WiFi Module]
-- [Section2.2]() [Connect the WiFi Module to the Arduino in working
+- [Section 1.2](https://github.com/yashkurkure/Smart-Aquarium-Project#section-12-lcd-esp8266-01-and-stepper-pin-numbering) [Refer ESP8266-01 Pinout]
+- [Section 2.1](https://github.com/yashkurkure/Smart-Aquarium-Project#section-21-esp8266---01-program-mode) [Set WiFi Module in program mode]
+- [Section 3](https://github.com/yashkurkure/Smart-Aquarium-Project#section-3-flashing-code-onto-the-esp8266-01) [Program the WiFi Module]
+- [Section2.2](https://github.com/yashkurkure/Smart-Aquarium-Project#section-22-esp8266---01-working-mode) [Connect the WiFi Module to the Arduino in working
 mode]
 
 At this point you are done with uploading code to the ESP8266-01. Now
 for the Arduino.
 
-- [Section 4]() [Upload code to arduino]
-- [Section 1.2]() [Refer Stepper IC and LCD Pinout]
-- [Section 1.1]() [Wire all the components]
-- [Section 1.3]() [While wiring refer these diagrams]
+- [Section 4](https://github.com/yashkurkure/Smart-Aquarium-Project#section-4-flash-software-on-the-arduino) [Upload code to arduino]
+- [Section 1.2](https://github.com/yashkurkure/Smart-Aquarium-Project#section-12-lcd-esp8266-01-and-stepper-pin-numbering) [Refer Stepper IC and LCD Pinout]
+- [Section 1.1](https://github.com/yashkurkure/Smart-Aquarium-Project#section-11-wiring-the-setup-arduino-side) [Wire all the components]
+- [Section 1.3](https://github.com/yashkurkure/Smart-Aquarium-Project#section-13-diagrams) [While wiring refer these diagrams]
 
 At this point you have uploaded code to the Arduino, ESP8266-01 and
 have the wirings done.
 - Now install the APP [link to APK at end] on your android device
-and follow Section 5.
+and follow [Section 5](https://github.com/yashkurkure/Smart-Aquarium-Project#section-5-making-the-final-connections).
 - Next, look at the How to use section.
 
 ### Section 1.1: Wiring the Setup [Arduino Side]
@@ -106,7 +142,7 @@ This sections has all connections diagrams for each arduino component.
 - Stepper motor 
     - ![Stepper connections](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/connections/stepper_conn.png)
 - Water level sensor 
- - ![Water level sensor connections](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/connections/waterlevel_conn.png)
+    - ![Water level sensor connections](https://github.com/yashkurkure/Smart-Aquarium-Project/blob/main/readme_img/connections/waterlevel_conn.png)
 
 
 ### Section 2.1: ESP8266 - 01 [Program Mode]
@@ -182,3 +218,28 @@ Take the **smart_aquarium.ino** code and flash it to the arduino using the Ardui
 Assuming that you have completed all the sections prior to this, connect the ESP8266-01 to the Arduino in working mode [Section 2.2], and make sure that the connections from Section 1.1 are made.
 
 We have already provided the Android APK and the code. Next, once all connections are made, power on the arduino and then boot up the APP. More on how to use the setup in the guide ahead.
+
+
+## References:
+
+Arduino Project Hub. 2018. _How to Code Step Motor_. [online] Available at: \&lt;https://create.arduino.cc/projecthub/MisterBotBreak/how-to-code-step-motor-e3e228\&gt; [Accessed 26 February 2021].
+
+Arduino Project Hub. 2021. _ESP8266 - Setup and First WiFi Connection_. [online] Available at: \&lt;https://create.arduino.cc/projecthub/neverofftheinternet/esp8266-setup-and-first-wifi-connection-76fc3c\&gt; [Accessed 26 February 2021].
+
+Dimitrov, K., 2017. _DIY Arduino Thermometer With DS18B20_. [online] Instructables. Available at: \&lt;https://www.instructables.com/How-To-Make-Arduino-Thermometer-With-DS18B20\&gt; [Accessed 26 February 2021].
+
+Electronics Hub. 2018. _WiFi Controlled LED using ESP8266 and Arduino | Electronics Hub_. [online] Available at: \&lt;https://www.electronicshub.org/wifi-controlled-led-using-esp8266-and-arduino/#:~:text=A%20simple%20project%20called%20WiFi,of%20a%20simple%20HTML%20webpage.\&gt; [Accessed 26 February 2021].
+
+iot boys, 2017. _How To Use DS18B20 Water Proof Temperature Sensor_. [online] Arduino Project Hub. Available at: \&lt;https://create.arduino.cc/projecthub/iotboys/how-to-use-ds18b20-water-proof-temperature-sensor-2adecc\&gt; [Accessed 26 February 2021].
+
+jos, o., n.d. _Controlling AC Light Using Arduino With Relay Module_. [online] Instructables.com. Available at: \&lt;https://www.instructables.com/Controlling-AC-light-using-Arduino-with-relay-modu/\&gt; [Accessed 26 February 2021].
+
+Last Minute Engineers. 2021. _In-Depth: Interface DS3231 Precision RTC Module with Arduino_. [online] Available at: \&lt;https://lastminuteengineers.com/ds3231-rtc-arduino-tutorial/\&gt; [Accessed 26 February 2021].
+
+Paredes, J., 2017. _Add WiFi to Arduino UNO_. [online] Arduino Project Hub. Available at: \&lt;https://create.arduino.cc/projecthub/imjeffparedes/add-wifi-to-arduino-uno-663b9e\&gt; [Accessed 26 February 2021].
+
+Patel, A., 2020. _Remote Control Light Bulb using a Relay_. [online] Arduino Project Hub. Available at: \&lt;https://create.arduino.cc/projecthub/aaravpatel0124/remote-control-light-bulb-using-a-relay-6e659a\&gt; [Accessed 26 February 2021].
+
+Team, G., 2020. _Interfacing float sensor with Arduino - Gadgetronicx_. [online] Gadgetronicx. Available at: \&lt;https://www.gadgetronicx.com/interfacing-float-sensor-arduino/\&gt; [Accessed 26 February 2021].
+
+www.arduino.cc. n.d. _Hello World Tutorial LCD_. [online] Available at: \&lt;https://www.arduino.cc/en/Tutorial/LibraryExamples/HelloWorld\&gt; [Accessed 26 February 2021].
