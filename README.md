@@ -8,17 +8,16 @@ Quick links:
 - [Required Components](https://github.com/yashkurkure/Smart-Aquarium-Project#required-components)
 - [Some Diagrams](https://github.com/yashkurkure/Smart-Aquarium-Project#some-diargrams)
 - [Building the project](https://github.com/yashkurkure/Smart-Aquarium-Project#building-the-project)
-    - [Section 1.1: ]()
-    - [Section 1.2: ]()
-    - [Section 1.3: ]()
-    - [Section 2.1: ]()
-    - [Section 2.2: ])
-    - [Section 3: ]()
-    - [Section 4: ]()
-    - [Section 5: ]()
+    - [Section 1.1: Arduino pins and connections](https://github.com/yashkurkure/Smart-Aquarium-Project#section-11-wiring-the-setup-arduino-side)
+    - [Section 1.2: Pin outs for ESP8266-01, L293D Stepper IC and 16X2 LCD](https://github.com/yashkurkure/Smart-Aquarium-Project#section-12-lcd-esp8266-01-and-stepper-pin-numbering)
+    - [Section 1.3: Diagrams for individial I/O devices](https://github.com/yashkurkure/Smart-Aquarium-Project#section-13-diagrams)
+    - [Section 2.1: ESP8266-01 Program mode](https://github.com/yashkurkure/Smart-Aquarium-Project#section-21-esp8266---01-program-mode)
+    - [Section 2.2: ESP8266-01 Working mode](https://github.com/yashkurkure/Smart-Aquarium-Project#section-22-esp8266---01-working-mode)
+    - [Section 3: Flashing ESP8266-01](https://github.com/yashkurkure/Smart-Aquarium-Project#section-3-flashing-code-onto-the-esp8266-01)
+    - [Section 4: Flashing Arduino](https://github.com/yashkurkure/Smart-Aquarium-Project#section-4-flash-software-on-the-arduino)
+    - [Section 5: Final connections](https://github.com/yashkurkure/Smart-Aquarium-Project#section-5-making-the-final-connections)
+- [References](https://github.com/yashkurkure/Smart-Aquarium-Project#references)
 
-- [References]()
-- []()
 
 
 ## Required Components
@@ -72,7 +71,7 @@ Follow the order:
 - [Section 1.2](https://github.com/yashkurkure/Smart-Aquarium-Project#section-12-lcd-esp8266-01-and-stepper-pin-numbering) [Refer ESP8266-01 Pinout]
 - [Section 2.1](https://github.com/yashkurkure/Smart-Aquarium-Project#section-21-esp8266---01-program-mode) [Set WiFi Module in program mode]
 - [Section 3](https://github.com/yashkurkure/Smart-Aquarium-Project#section-3-flashing-code-onto-the-esp8266-01) [Program the WiFi Module]
-- [Section2.2](https://github.com/yashkurkure/Smart-Aquarium-Project#section-22-esp8266---01-working-mode) [Connect the WiFi Module to the Arduino in working
+- [Section 2.2](https://github.com/yashkurkure/Smart-Aquarium-Project#section-22-esp8266---01-working-mode) [Connect the WiFi Module to the Arduino in working
 mode]
 
 At this point you are done with uploading code to the ESP8266-01. Now
@@ -217,7 +216,7 @@ Take the **smart_aquarium.ino** code and flash it to the arduino using the Ardui
 
 Assuming that you have completed all the sections prior to this, connect the ESP8266-01 to the Arduino in working mode [Section 2.2], and make sure that the connections from Section 1.1 are made.
 
-We have already provided the Android APK and the code. Next, once all connections are made, power on the arduino and then boot up the APP. More on how to use the setup in the guide ahead.
+We have already provided the Android APK and the code. Next, once all connections are made, power on the arduino and then boot up the APP. Watch: https://youtu.be/kJp_m0JY0r8
 
 
 ## References:
