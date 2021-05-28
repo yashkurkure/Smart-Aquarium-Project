@@ -1,5 +1,8 @@
 # Smart-Aquarium-Project
 
+This project was developed as a final project for ***CS362: Computer design*** at the University of Illinois at Chicago.
+It was also entered in the yearly expo held at UIC: https://engineeringexpo.uic.edu/news-stories/smart-aquarium/
+
 The goal of this project is to make aquarium monitoring and maintenance easier. Using the Arduino UNO, tasks like light control, testing water quality, temperature control, fish feeding, etc., can be automated. This project has 4 main functionalities: timed fish feeding using a real-time clock, temperature monitoring, water level monitoring, and light control. There is a remote-control aspect over Wi-Fi, where the Wi-Fi module acts as a server and it communicates with the Arduino over serial and mobile device over local a loacal Wi-Fi network. You can control and monitor the Arduino via the android app. The app will allow you to control lights, feed fish, and set an alarm for feeding fish, monitor real-time water temperature and level.
 
 See this for the final results and usage: https://youtu.be/kJp_m0JY0r8
