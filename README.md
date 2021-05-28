@@ -221,24 +221,24 @@ We have already provided the Android APK and the code. Next, once all connection
 
 ## References:
 
-Arduino Project Hub. 2018. _How to Code Step Motor_. [online] Available at: \&lt;https://create.arduino.cc/projecthub/MisterBotBreak/how-to-code-step-motor-e3e228\&gt; [Accessed 26 February 2021].
+Arduino Project Hub. 2018. _How to Code Step Motor_. [online] Available at: https://create.arduino.cc/projecthub/MisterBotBreak/how-to-code-step-motor-e3e228\ [Accessed 26 February 2021].
 
-Arduino Project Hub. 2021. _ESP8266 - Setup and First WiFi Connection_. [online] Available at: \&lt;https://create.arduino.cc/projecthub/neverofftheinternet/esp8266-setup-and-first-wifi-connection-76fc3c\&gt; [Accessed 26 February 2021].
+Arduino Project Hub. 2021. _ESP8266 - Setup and First WiFi Connection_. [online] Available at: https://create.arduino.cc/projecthub/neverofftheinternet/esp8266-setup-and-first-wifi-connection-76fc3c\ [Accessed 26 February 2021].
 
-Dimitrov, K., 2017. _DIY Arduino Thermometer With DS18B20_. [online] Instructables. Available at: \&lt;https://www.instructables.com/How-To-Make-Arduino-Thermometer-With-DS18B20\&gt; [Accessed 26 February 2021].
+Dimitrov, K., 2017. _DIY Arduino Thermometer With DS18B20_. [online] Instructables. Available at: https://www.instructables.com/How-To-Make-Arduino-Thermometer-With-DS18B20 [Accessed 26 February 2021].
 
-Electronics Hub. 2018. _WiFi Controlled LED using ESP8266 and Arduino | Electronics Hub_. [online] Available at: \&lt;https://www.electronicshub.org/wifi-controlled-led-using-esp8266-and-arduino/#:~:text=A%20simple%20project%20called%20WiFi,of%20a%20simple%20HTML%20webpage.\&gt; [Accessed 26 February 2021].
+Electronics Hub. 2018. _WiFi Controlled LED using ESP8266 and Arduino | Electronics Hub_. [online] Available at: https://www.electronicshub.org/wifi-controlled-led-using-esp8266-and-arduino/#:~:text=A%20simple%20project%20called%20WiFi,of%20a%20simple%20HTML%20webpage. [Accessed 26 February 2021].
 
-iot boys, 2017. _How To Use DS18B20 Water Proof Temperature Sensor_. [online] Arduino Project Hub. Available at: \&lt;https://create.arduino.cc/projecthub/iotboys/how-to-use-ds18b20-water-proof-temperature-sensor-2adecc\&gt; [Accessed 26 February 2021].
+iot boys, 2017. _How To Use DS18B20 Water Proof Temperature Sensor_. [online] Arduino Project Hub. Available at: https://create.arduino.cc/projecthub/iotboys/how-to-use-ds18b20-water-proof-temperature-sensor-2adecc [Accessed 26 February 2021].
 
-jos, o., n.d. _Controlling AC Light Using Arduino With Relay Module_. [online] Instructables.com. Available at: \&lt;https://www.instructables.com/Controlling-AC-light-using-Arduino-with-relay-modu/\&gt; [Accessed 26 February 2021].
+jos, o., n.d. _Controlling AC Light Using Arduino With Relay Module_. [online] Instructables.com. Available at: https://www.instructables.com/Controlling-AC-light-using-Arduino-with-relay-modu/ [Accessed 26 February 2021].
 
-Last Minute Engineers. 2021. _In-Depth: Interface DS3231 Precision RTC Module with Arduino_. [online] Available at: \&lt;https://lastminuteengineers.com/ds3231-rtc-arduino-tutorial/\&gt; [Accessed 26 February 2021].
+Last Minute Engineers. 2021. _In-Depth: Interface DS3231 Precision RTC Module with Arduino_. [online] Available at: https://lastminuteengineers.com/ds3231-rtc-arduino-tutorial/ [Accessed 26 February 2021].
 
-Paredes, J., 2017. _Add WiFi to Arduino UNO_. [online] Arduino Project Hub. Available at: \&lt;https://create.arduino.cc/projecthub/imjeffparedes/add-wifi-to-arduino-uno-663b9e\&gt; [Accessed 26 February 2021].
+Paredes, J., 2017. _Add WiFi to Arduino UNO_. [online] Arduino Project Hub. Available at: https://create.arduino.cc/projecthub/imjeffparedes/add-wifi-to-arduino-uno-663b9e [Accessed 26 February 2021].
 
-Patel, A., 2020. _Remote Control Light Bulb using a Relay_. [online] Arduino Project Hub. Available at: \&lt;https://create.arduino.cc/projecthub/aaravpatel0124/remote-control-light-bulb-using-a-relay-6e659a\&gt; [Accessed 26 February 2021].
+Patel, A., 2020. _Remote Control Light Bulb using a Relay_. [online] Arduino Project Hub. Available at: https://create.arduino.cc/projecthub/aaravpatel0124/remote-control-light-bulb-using-a-relay-6e659a [Accessed 26 February 2021].
 
-Team, G., 2020. _Interfacing float sensor with Arduino - Gadgetronicx_. [online] Gadgetronicx. Available at: \&lt;https://www.gadgetronicx.com/interfacing-float-sensor-arduino/\&gt; [Accessed 26 February 2021].
+Team, G., 2020. _Interfacing float sensor with Arduino - Gadgetronicx_. [online] Gadgetronicx. Available at: https://www.gadgetronicx.com/interfacing-float-sensor-arduino/ [Accessed 26 February 2021].
 
-www.arduino.cc. n.d. _Hello World Tutorial LCD_. [online] Available at: \&lt;https://www.arduino.cc/en/Tutorial/LibraryExamples/HelloWorld\&gt; [Accessed 26 February 2021].
+www.arduino.cc. n.d. _Hello World Tutorial LCD_. [online] Available at: https://www.arduino.cc/en/Tutorial/LibraryExamples/HelloWorld [Accessed 26 February 2021].
